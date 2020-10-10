@@ -1,0 +1,47 @@
+body{  
+  display: grid;
+  justify-content: center;  
+  color: #FFF;
+  background: linear-gradient(to right, rgb(19, 106, 138), rgb(38, 120, 113));
+}
+
+button{
+  background-color: #555555; /* Green */
+  color: white;
+  border: none;
+  padding: 8px 25px;
+  font-size: 20px;  
+}
+
+textarea{
+  font-size: 20px;
+  font-family: arial, helvetica, sans-serif;
+}
+
+button:active{
+  box-shadow: 0 3px 0 #3d3d3d;
+}
+
+#input{
+  padding: 8px 25px;
+  margin: 10px 0px 0px 0px;
+}
+
+#myDiv{
+  justify-content: center;   
+  display: none;
+}
+
+#central{
+  justify-content: center;  
+  display: grid;
+  padding: 70px 0px 15px;
+}
+
+#test{
+  font-size: 20px;  
+}
+
+.select{
+  margin:0px 10px;
+}
